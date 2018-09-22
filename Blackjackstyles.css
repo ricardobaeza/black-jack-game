@@ -1,3 +1,28 @@
-.button-display {
+
+
+.container {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 800px;
+    width: 70%;
+    margin: 0 auto;
+    background-color: #9B948D;
+    font-family: 'Roboto Mono', monospace;
+
+
+}
+
+button {
+    padding: 2px;
+    border-radius: 5px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+
+}
+body {
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
 }

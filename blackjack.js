@@ -216,13 +216,13 @@ function showStatus() {
     
     if (gameOver) {
         if (playerWon) {
-            textArea.innerText += 'you win';
+            textArea.innerText += 'YOU WIN!';
         }
         else if (gameTie) {
-            textArea.innerText += 'you have tied with the dealer'
+            textArea.innerText += 'YOU HAVE TIED WITH THE DEALER';
         }
         else {
-            textArea.innerText += 'dealer wins';
+            textArea.innerText += 'DEALER WINS!';
         }
         newGameButton.style.display = "inline";
         hitButton.style.display = 'none';
